@@ -1,0 +1,17 @@
+{
+    "id_trajet" : 1,
+    "heure_dep" : "2022-02-20 20-00",
+    "heure_des" : "2022-02-20 20-52",
+    "tarif" : 5,
+    "numero_agrement" : 1,
+    "plaque_immatriculation" : "ab123xz",
+    "distance" : {
+        "code_postal_dep" : 44000,
+        "code_postal_des" : 49300,
+        "longeur" : 59
+    }
+
+    "V"
+    
+}
+
