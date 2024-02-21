@@ -1,0 +1,12 @@
+Serveur
+172.19.0.2::27017
+
+Autantification
+user : s4a15
+mp   : s4a15
+db   : s4a15
+
+SSH
+172.26.82.70::22
+user : tdmongo
+mp   : tdmongo

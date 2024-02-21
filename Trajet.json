@@ -1,17 +1,98 @@
+[
 {
     "id_trajet" : 1,
     "heure_dep" : "2022-02-20 20-00",
     "heure_des" : "2022-02-20 20-52",
     "tarif" : 5,
-    "numero_agrement" : 1,
-    "plaque_immatriculation" : "ab123xz",
+    "conducteur" : {
+        "numero_agrement" : 13978,
+        "date_agrement" : "28-01-2017",
+        "certife" : 1,
+        "id_personne" : 5
+    },
+
+    "vehiclue" : {
+        "plaque_immatriculation" : "ab123xz",
+        "marque" : {
+            "marque" : "Skoda",
+            "type" : "voiture"
+        },
+        "energie" : "essence",
+        "anne_mise_en_service" :4,
+        "nombre_places" : 1999
+    },
+
     "distance" : {
         "code_postal_dep" : 44000,
         "code_postal_des" : 49300,
         "longeur" : 59
-    }
+    },
 
-    "V"
-    
+    "id_voyageurs" : [
+        2,12,15,3
+    ]
+},
+{
+    "id_trajet" : 2,
+    "heure_dep" : "2022-03-20 20-00",
+    "heure_des" : "2022-03-20 20-52",
+    "tarif" : 5,
+    "conducteur" : {
+        "numero_agrement" : 13978,
+        "date_agrement" : "28-01-2017",
+        "certife" : 1,
+        "id_personne" : 5
+    },
+
+    "vehiclue" : {
+        "plaque_immatriculation" : "ab123xz",
+        "marque" : {
+            "marque" : "Skoda",
+            "type" : "voiture"
+        },
+        "energie" : "essence",
+        "anne_mise_en_service" :4,
+        "nombre_places" : 1999
+    },
+
+    "distance" : {
+        "code_postal_dep" : 49300,
+        "code_postal_des" : 44000,
+        "longeur" : 59
+    },
+
+    "id_voyageurs" : []
+},
+/* ok */
+{
+    "id_trajet" : 2,
+    "heure_dep" : "2022-01-19 19-00",
+    "heure_des" : "2022-01-19 19-52",
+    "tarif" : 7,
+    "conducteur" : {
+        "numero_agrement" : 12564,
+        "date_agrement" : "11-08-2018",
+        "certife" : 0,
+        "id_personne" : 2
+    },
+/**/
+    "vehiclue" : {
+        "plaque_immatriculation" : "az426bt",
+        "marque" : {
+            "marque" : "Skoda",
+            "type" : "voiture"
+        },
+        "energie" : "essence",
+        "anne_mise_en_service" :4,
+        "nombre_places" : 1999
+    },
+
+    "distance" : {
+        "code_postal_dep" : 44000,
+        "code_postal_des" : 49300,
+        "longeur" : 59
+    },
+
+    "id_voyageurs" : [9,3,6,8]
 }
-
+]
