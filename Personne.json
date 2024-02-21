@@ -1,0 +1,70 @@
+[{
+    "id_personne" : 1,
+    "nom":"Camus",
+    "prenom":"Suzanne",
+
+    "localisation": {
+        "nom_ville":"Nantes",
+        "adresse_rue":"53 Rue du Douet Garnier",
+        "code_postale": "44000"
+    },
+
+    "voyages": {
+        "id_trajet": [0]
+    },
+
+    "avis_reçu": [{
+        "id_avis":1,
+        "message": "A",
+        "etoiles":3,
+        "id_personne_source": 2
+    }]
+
+},
+
+{
+    "id_personne" : 2,
+    "nom":"Fleury",
+    "prenom":"Michèle",
+
+    "localisation": {
+        "nom_ville":"Nantes",
+        "adresse_rue":"36 Bd Gaston Serpette",
+        "code_postale": "44000"
+    },
+
+    "voyages": {
+        "id_trajet": [1]
+    },
+
+    "avis_reçu": []
+
+},
+{
+    "id_personne" : 3,
+    "nom":"René",
+    "prenom":"Georges",
+
+    "localisation": {
+        "nom_ville":"Rouen",
+        "adresse_rue":"1 Rue de Joyeuse",
+        "code_postale": "76000"
+    },
+
+    "voyages": {
+        "id_trajet": [1,3]
+    },
+
+    "avis_reçu": [{
+        "id_avis":2,
+        "message": "B",
+        "etoiles":3,
+        "id_personne_source":2
+    },{
+        "id_avis":3,
+        "message": "C",
+        "etoiles":4,
+        "id_personne_source": 2
+    }]
+
+}]
