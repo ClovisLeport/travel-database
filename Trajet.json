@@ -1,5 +1,4 @@
 [
-/*inverser l'ordre des date*/
 {
     "id_trajet" : 1,
     "heure_dep" : "2022-02-20 20-00",
@@ -7,7 +6,7 @@
     "tarif" : 5,
     "conducteur" : {
         "numero_agrement" : 13978,
-        "date_agrement" : "28-01-2017",
+        "date_agrement" : "2017-01-28",
         "certife" : 1,
         "id_personne" : 5
     },
@@ -40,7 +39,7 @@
     "tarif" : 5,
     "conducteur" : {
         "numero_agrement" : 13978,
-        "date_agrement" : "28-01-2017",
+        "date_agrement" : "2017-01-28",
         "certife" : 1,
         "id_personne" : 5
     },
@@ -71,7 +70,7 @@
     "tarif" : 7,
     "conducteur" : {
         "numero_agrement" : 12564,
-        "date_agrement" : "11-08-2018",
+        "date_agrement" : "2018-08-11",
         "certife" : 0,
         "id_personne" : 2
     },
@@ -101,7 +100,7 @@
     "tarif" : 25,
     "conducteur" : {
         "numero_agrement" : 78541,
-        "date_agrement" : "02-09-2020",
+        "date_agrement" : "2020-09-02",
         "certife" : 1,
         "id_personne" : 1
     },
@@ -131,7 +130,7 @@
     "tarif" : 51,
     "conducteur" : {
         "numero_agrement" : 685,
-        "date_agrement" : "29-08-2019",
+        "date_agrement" : "2019-08-29",
         "certife" : 0,
         "id_personne" : 11
     },
@@ -161,7 +160,7 @@
     "tarif" : 9.5,
     "conducteur" : {
         "numero_agrement" : 9523,
-        "date_agrement" : "30-03-2018",
+        "date_agrement" : "2018-03-30",
         "certife" : 1,
         "id_personne" : 19
     },
@@ -191,7 +190,7 @@
     "tarif" : 18,
     "conducteur" : {
         "numero_agrement" : 85423,
-        "date_agrement" : "15-11-2019",
+        "date_agrement" : "2019-11-15",
         "certife" : 0,
         "id_personne" : 10
     },
@@ -221,7 +220,7 @@
     "tarif" : 19,
     "conducteur" : {
         "numero_agrement" : 9523,
-        "date_agrement" : "30-03-2018",
+        "date_agrement" : "2018-03-30",
         "certife" : 1,
         "id_personne" : 19
     },
@@ -251,7 +250,7 @@
     "tarif" : 45,
     "conducteur" : {
         "numero_agrement" : 74125,
-        "date_agrement" : "29-01-2017",
+        "date_agrement" : "2017-01-29",
         "certife" : 0,
         "id_personne" : 13
     },
@@ -281,7 +280,7 @@
     "tarif" : 15,
     "conducteur" : {
         "numero_agrement" : 85423,
-        "date_agrement" : "15-11-2019",
+        "date_agrement" : "2019-11-15",
         "certife" : 0,
         "id_personne" : 10
     },
@@ -311,7 +310,7 @@
     "tarif" : 10,
     "conducteur" : {
         "numero_agrement" : 12564,
-        "date_agrement" : "11-08-2018",
+        "date_agrement" : "2018-08-11",
         "certife" : 0,
         "id_personne" : 2
     },
