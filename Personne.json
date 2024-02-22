@@ -168,6 +168,24 @@
         "id_personne_source": 1
     }]
 
+},
+{
+    "id_personne" : 12,
+    "nom":"Klein",
+    "prenom":"Charles",
+
+    "localisation": {
+        "nom_ville":"Cholet",
+        "adresse_rue":"38 Rue Volney",
+        "code_postale": "49300"
+    },
+
+    "voyages": {
+        "id_trajet": []
+    },
+
+    "avis_reçu": []
+
 }
 
 
