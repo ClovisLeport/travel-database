@@ -7,7 +7,7 @@
     "localisation": {
         "nom_ville":"Nantes",
         "adresse_rue":"9 Chem. de la Pelletterie",
-        "code_postale": "44000"
+        "code_postale": 44000
     },
 
     "voyages": {
@@ -25,7 +25,7 @@
     "localisation": {
         "nom_ville":"Nantes",
         "adresse_rue":"53 Rue du Douet Garnier",
-        "code_postale": "44000"
+        "code_postale": 44000
     },
 
     "voyages": {
@@ -69,7 +69,7 @@
     "localisation": {
         "nom_ville":"Nantes",
         "adresse_rue":"36 Bd Gaston Serpette",
-        "code_postale": "44000"
+        "code_postale": 44000
     },
 
     "voyages": {
@@ -118,7 +118,7 @@
     "localisation": {
         "nom_ville":"Rouen",
         "adresse_rue":"1 Rue de Joyeuse",
-        "code_postale": "76000"
+        "code_postale": 76000
     },
 
     "voyages": {
@@ -136,7 +136,7 @@
     "localisation": {
         "nom_ville":"Orleans",
         "adresse_rue":"24 Rue du Petit Pont",
-        "code_postale": "45000"
+        "code_postale": 45000
     },
 
     "voyages": {
@@ -154,7 +154,7 @@
     "localisation": {
         "nom_ville":"Grenoble",
         "adresse_rue":"21 Rue René Thomas",
-        "code_postale": "38000"
+        "code_postale": 38000
     },
 
     "voyages": {
@@ -172,7 +172,7 @@
     "localisation": {
         "nom_ville":"Rouen",
         "adresse_rue":"14 Imp. de Flandre",
-        "code_postale": "76000"
+        "code_postale": 76000
     },
 
     "voyages": {
@@ -190,7 +190,7 @@
     "localisation": {
         "nom_ville":"Lille",
         "adresse_rue":"198 Rue des Postes",
-        "code_postale": "59000"
+        "code_postale": 59000
     },
 
     "voyages": {
@@ -208,7 +208,7 @@
     "localisation": {
         "nom_ville":"Lyon",
         "adresse_rue":"46 Rue Ferrandière",
-        "code_postale": "69000"
+        "code_postale": 69000
     },
 
     "voyages": {
@@ -243,7 +243,7 @@
     "localisation": {
         "nom_ville":"Bordeaux",
         "adresse_rue":"6 Rue de Lurbe",
-        "code_postale": "33000"
+        "code_postale": 33000
     },
 
     "voyages": {
@@ -261,7 +261,7 @@
     "localisation": {
         "nom_ville":"Bordeaux",
         "adresse_rue":"15 Rue Rolland",
-        "code_postale": "33000"
+        "code_postale": 33000
     },
 
     "voyages": {
@@ -279,7 +279,7 @@
     "localisation": {
         "nom_ville":"Angers",
         "adresse_rue":"38 Rue Volney",
-        "code_postale": "49000"
+        "code_postale": 49000
     },
 
     "voyages": {
@@ -297,7 +297,7 @@
     "localisation": {
         "nom_ville":"Cholet",
         "adresse_rue":"14 Rue du Planty",
-        "code_postale": "49300"
+        "code_postale": 49300
     },
 
     "voyages": {
@@ -315,7 +315,7 @@
     "localisation": {
         "nom_ville":"Angers",
         "adresse_rue":"42 Rue Bourgonnier",
-        "code_postale": "49000"
+        "code_postale": 49000
     },
 
     "voyages": {
@@ -333,7 +333,7 @@
     "localisation": {
         "nom_ville":"Angers",
         "adresse_rue":"2 Rue Lebas",
-        "code_postale": "49000"
+        "code_postale": 49000
     },
 
     "voyages": {
@@ -351,7 +351,7 @@
     "localisation": {
         "nom_ville":"Cholet",
         "adresse_rue":"12 Rue de la Hollande",
-        "code_postale": "49300"
+        "code_postale": 49300
     },
 
     "voyages": {
@@ -369,7 +369,7 @@
     "localisation": {
         "nom_ville":"Le Sappey en Chartreuse",
         "adresse_rue":"12 Rue Amédée Morel",
-        "code_postale": "38000"
+        "code_postale": 38000
     },
 
     "voyages": {
@@ -387,7 +387,7 @@
     "localisation": {
         "nom_ville":"Lyon",
         "adresse_rue":"18 Quai Jean Moulin",
-        "code_postale": "69000"
+        "code_postale": 69000
     },
 
     "voyages": {
@@ -405,7 +405,7 @@
     "localisation": {
         "nom_ville":"Rouen",
         "adresse_rue":"17 Rue du Dr André Derocque",
-        "code_postale": "76000"
+        "code_postale": 76000
     },
 
     "voyages": {
@@ -423,7 +423,7 @@
     "localisation": {
         "nom_ville":"Tourcoing",
         "adresse_rue":"10 Rue Kuhlmann",
-        "code_postale": "59000"
+        "code_postale": 59000
     },
 
     "voyages": {

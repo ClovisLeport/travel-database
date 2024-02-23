@@ -18,7 +18,8 @@ db.Trajet.aggregate([
           date_agrement : "$conducteur.date_agrement",
           certife : "$conducteur.certife",
           id_personne : "$conducteur.id_personne",
-          vehiclue_anne_mise_en_service : "$vehiclue.anne_mise_en_service"
+          vehiclue_anne_mise_en_service : "$vehiclue.anne_mise_en_service",
+          vehiclue_energie : "$vehiclue.energie"
           },
 
       }
@@ -43,7 +44,8 @@ db.Trajet.aggregate([
         $addFields: { numero_agrement: "$_id.numero_agrement",
              vehiclue_anne_mise_en_service : "$_id.vehiclue_anne_mise_en_service",
              id_personne : "$_id.id_personne",
-             nom_ville : "$personne.localisation.nom_ville"}
+             nom_ville : "$personne.localisation.nom_ville",
+             vehiclue_energie : "$_id.vehiclue_energie"}
     },
     {$project : {
         _id : 0, personne:0
@@ -59,14 +61,16 @@ db.Trajet.aggregate([
       { _id : "$conducteur.numero_agrement",
         nbtrajet : {$sum : 1}
       }
+    },
+    {
+        $sort : {nbtrajet : -1}
     }
 ])
 
 //6
-////////////A TESTER
 db.Trajet.aggregate([
 
-    { $addFields: { date: { $toDate: "$vehiclue.anne_mise_en_service" } } },
+    { $addFields: { date: { $toDate: "$conducteur.date_agrement" } } },
 
     {
         $match : {
@@ -110,13 +114,11 @@ db.Trajet.aggregate([
 ])
 
 //10
-//v1 avec 3 considérer comme négatife
-//work in progress
 db.Trajet.aggregate([
 
     {
         $match : {
-            "conducteur.numero_agrement" : 13978
+            "conducteur.numero_agrement" : 12564//13978
         }
     },
     
@@ -139,10 +141,20 @@ db.Trajet.aggregate([
             "personne.avis_reçu.etoiles" : {$lte:3}
         }
     },
-    {
-        $match : {
-            "personne.avis_reçu.id_personne_source" : {$in : "$id_voyageurs"}
-        }
+    { $addFields: {
+          id_trajet: "$id_trajet",
+          heure_dep: '$heure_dep',
+          heure_des: '$heure_des',
+          code_postal_dep: '$distance.code_postal_dep',
+          code_postal_des: '$distance.code_postal_des'} 
     },
     
+    {$project: {
+        _id:0,
+        id_trajet: 1,
+        heure_dep : 1,
+        heure_des : 1,
+        code_postal_dep : 1,
+        code_postal_des : 1,
+    }}    
 ])
