@@ -1,0 +1,336 @@
+[
+{
+    "id_trajet" : 1,
+    "heure_dep" : "2022-02-20 20-00",
+    "heure_des" : "2022-02-20 20-52",
+    "tarif" : 5,
+    "conducteur" : {
+        "numero_agrement" : 13978,
+        "date_agrement" : "2017-01-28",
+        "certife" : 1,
+        "id_personne" : 5
+    },
+
+    "vehiclue" : {
+        "plaque_immatriculation" : "ab123xz",
+        "marque" : {
+            "marque" : "Skoda",
+            "type" : "voiture"
+        },
+        "energie" : "essence",
+        "anne_mise_en_service" :1999,
+        "nombre_places" : 4
+    },
+
+    "distance" : {
+        "code_postal_dep" : 44000,
+        "code_postal_des" : 49300,
+        "longeur" : 59
+    },
+
+    "id_voyageurs" : [
+        2,12,15,3
+    ]
+},
+{
+    "id_trajet" : 2,
+    "heure_dep" : "2022-03-20 20-00",
+    "heure_des" : "2022-03-20 20-52",
+    "tarif" : 5,
+    "conducteur" : {
+        "numero_agrement" : 13978,
+        "date_agrement" : "2017-01-28",
+        "certife" : 1,
+        "id_personne" : 5
+    },
+
+    "vehiclue" : {
+        "plaque_immatriculation" : "ab123xz",
+        "marque" : {
+            "marque" : "Skoda",
+            "type" : "voiture"
+        },
+        "energie" : "essence",
+        "anne_mise_en_service" :1999,
+        "nombre_places" : 4
+    },
+
+    "distance" : {
+        "code_postal_dep" : 49300,
+        "code_postal_des" : 44000,
+        "longeur" : 59
+    },
+
+    "id_voyageurs" : []
+},
+{
+    "id_trajet" : 3,
+    "heure_dep" : "2022-01-19 19-00",
+    "heure_des" : "2022-01-19 19-52",
+    "tarif" : 7,
+    "conducteur" : {
+        "numero_agrement" : 12564,
+        "date_agrement" : "2018-08-11",
+        "certife" : 0,
+        "id_personne" : 2
+    },
+    "vehiclue" : {
+        "plaque_immatriculation" : "az426bt",
+        "marque" : {
+            "marque" : "BMW",
+            "type" : "voiture"
+        },
+        "energie" : "électrique",
+        "anne_mise_en_service" :1987,
+        "nombre_places" : 5
+    },
+
+    "distance" : {
+        "code_postal_dep" : 44000,
+        "code_postal_des" : 49300,
+        "longeur" : 59
+    },
+
+    "id_voyageurs" : [9,3,6,8]
+},
+{
+    "id_trajet" : 4,
+    "heure_dep" : "2021-09-21 08-30",
+    "heure_des" : "2021-09-21 12-40",
+    "tarif" : 25,
+    "conducteur" : {
+        "numero_agrement" : 78541,
+        "date_agrement" : "2020-09-02",
+        "certife" : 1,
+        "id_personne" : 1
+    },
+    "vehiclue" : {
+        "plaque_immatriculation" : "az745ad",
+        "marque" : {
+            "marque" : "Nissan",
+            "type" : "voiture"
+        },
+        "energie" : "essence",
+        "anne_mise_en_service" :1999,
+        "nombre_places" : 4
+    },
+
+    "distance" : {
+        "code_postal_dep" : 45000,
+        "code_postal_des" : 44000,
+        "longeur" : 335
+    },
+
+    "id_voyageurs" : []
+},
+{
+    "id_trajet" : 5,
+    "heure_dep" : "2021-09-10 07-30",
+    "heure_des" : "2021-09-10 14-10",
+    "tarif" : 51,
+    "conducteur" : {
+        "numero_agrement" : 685,
+        "date_agrement" : "2019-08-29",
+        "certife" : 0,
+        "id_personne" : 11
+    },
+    "vehiclue" : {
+        "plaque_immatriculation" : "az745ad",
+        "marque" : {
+            "marque" : "Nissan",
+            "type" : "voiture"
+        },
+        "energie" : "essence",
+        "anne_mise_en_service" :1999,
+        "nombre_places" : 4
+    },
+
+    "distance" : {
+        "code_postal_dep" : 45000,
+        "code_postal_des" : 59200,
+        "longeur" : 676.1
+    },
+
+    "id_voyageurs" : []
+},
+{
+    "id_trajet" : 6,
+    "heure_dep" : "2021-08-23 11-15",
+    "heure_des" : "2021-08-23 18-50",
+    "tarif" : 9.5,
+    "conducteur" : {
+        "numero_agrement" : 9523,
+        "date_agrement" : "2018-03-30",
+        "certife" : 1,
+        "id_personne" : 19
+    },
+    "vehiclue" : {
+        "plaque_immatriculation" : "z794aed",
+        "marque" : {
+            "marque" : "Audi",
+            "type" : "voiture"
+        },
+        "energie" : "électrique",
+        "anne_mise_en_service" :2017,
+        "nombre_places" : 6
+    },
+
+    "distance" : {
+        "code_postal_dep" : 44000,
+        "code_postal_des" : 56000,
+        "longeur" : 110
+    },
+
+    "id_voyageurs" : []
+},
+{
+    "id_trajet" : 7,
+    "heure_dep" : "2021-08-12 21-30",
+    "heure_des" : "2021-08-12 23-36",
+    "tarif" : 18,
+    "conducteur" : {
+        "numero_agrement" : 85423,
+        "date_agrement" : "2019-11-15",
+        "certife" : 0,
+        "id_personne" : 10
+    },
+    "vehiclue" : {
+        "plaque_immatriculation" : "z794aed",
+        "marque" : {
+            "marque" : "Audi",
+            "type" : "voiture"
+        },
+        "energie" : "électrique",
+        "anne_mise_en_service" :2017,
+        "nombre_places" : 6
+    },
+
+    "distance" : {
+        "code_postal_dep" : 17000,
+        "code_postal_des" : 33000,
+        "longeur" : 201
+    },
+
+    "id_voyageurs" : []
+},
+{
+    "id_trajet" : 8,
+    "heure_dep" : "2021-08-03 09-10",
+    "heure_des" : "2021-08-03 11-10",
+    "tarif" : 19,
+    "conducteur" : {
+        "numero_agrement" : 9523,
+        "date_agrement" : "2018-03-30",
+        "certife" : 1,
+        "id_personne" : 19
+    },
+    "vehiclue" : {
+        "plaque_immatriculation" : "hj715ut",
+        "marque" : {
+            "marque" : "Skoda",
+            "type" : "voiture"
+        },
+        "energie" : "essence",
+        "anne_mise_en_service" :2015,
+        "nombre_places" : 5
+    },
+
+    "distance" : {
+        "code_postal_dep" : 38700,
+        "code_postal_des" : 39200,
+        "longeur" : 226.8
+    },
+
+    "id_voyageurs" : []
+},
+{
+    "id_trajet" : 9,
+    "heure_dep" : "2021-08-12 21-30",
+    "heure_des" : "2021-08-13 03-30",
+    "tarif" : 45,
+    "conducteur" : {
+        "numero_agrement" : 74125,
+        "date_agrement" : "2017-01-29",
+        "certife" : 0,
+        "id_personne" : 13
+    },
+    "vehiclue" : {
+        "plaque_immatriculation" : "qw120qz",
+        "marque" : {
+            "marque" : "Nissan",
+            "type" : "voiture"
+        },
+        "energie" : "essence",
+        "anne_mise_en_service" :1998,
+        "nombre_places" : 5
+    },
+
+    "distance" : {
+        "code_postal_dep" : 45000,
+        "code_postal_des" : 38700,
+        "longeur" : 587.5
+    },
+
+    "id_voyageurs" : []
+},
+{
+    "id_trajet" : 10,
+    "heure_dep" : "2021-08-12 15-12",
+    "heure_des" : "2021-08-12 17-25",
+    "tarif" : 15,
+    "conducteur" : {
+        "numero_agrement" : 85423,
+        "date_agrement" : "2019-11-15",
+        "certife" : 0,
+        "id_personne" : 10
+    },
+    "vehiclue" : {
+        "plaque_immatriculation" : "qw120qz",
+        "marque" : {
+            "marque" : "Nissan",
+            "type" : "voiture"
+        },
+        "energie" : "essence",
+        "anne_mise_en_service" :1998,
+        "nombre_places" : 5
+    },
+
+    "distance" : {
+        "code_postal_dep" : 22300,
+        "code_postal_des" : 50170,
+        "longeur" : 181
+    },
+
+    "id_voyageurs" : []
+},
+{
+    "id_trajet" : 11,
+    "heure_dep" : "2022-08-12 15-12",
+    "heure_des" : "2022-08-12 17-25",
+    "tarif" : 10,
+    "conducteur" : {
+        "numero_agrement" : 12564,
+        "date_agrement" : "2018-08-11",
+        "certife" : 0,
+        "id_personne" : 2
+    },
+    "vehiclue" : {
+        "plaque_immatriculation" : "az426bt",
+        "marque" : {
+            "marque" : "BMW",
+            "type" : "voiture"
+        },
+        "energie" : "électrique",
+        "anne_mise_en_service" :1987,
+        "nombre_places" : 5
+    },
+
+    "distance" : {
+        "code_postal_dep" : 22300,
+        "code_postal_des" : 50170,
+        "longeur" : 181
+    },
+
+    "id_voyageurs" : []
+}
+]
